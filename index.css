@@ -8,7 +8,9 @@
 
 :root{
     --primary-font:'Product Sans', sans-serif;
+    --primary-color:#D91F4F
 }
+
 
 .container{
     width:1280px;
@@ -32,6 +34,7 @@ nav{
 }
 
 .nav-left{
+    width:27%;
     display: flex;
     align-items: center;
 }
@@ -55,7 +58,7 @@ nav{
 
 .links ul li{
     display: flex;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight:600;
 }
 
@@ -64,5 +67,77 @@ nav{
 }
 
 .nav-center{
-    width:454.3px
+    width:46%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-form{
+    width:454.3px;
+    height: 53.04px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0.625rem;
+    border-radius: 50px;
+    box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.534);
+-webkit-box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.534);
+-moz-box-shadow: 0px 0px 4px 0px rgba(0,0,0,0.534);
+}
+
+.search-form input[type="text"]{
+    width:90%;
+    border:none;
+    outline:0;
+    font-family: var(--primary-font);
+    font-size: 1.063rem;
+}
+
+.search-form input[type="text"]::placeholder{
+    color:gray;
+    font-family: var(--primary-font);
+    font-size: 16px;
+}
+
+.search-btn{
+    height:35px;
+    width:35px;
+    border:none;
+    border-radius:50%;
+    color:white;
+    background-color: var(--primary-color);
+   
+}
+
+.nav-right{
+    width:27%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.event-organizer-btn{
+    padding:0.813rem;
+    border:none;
+    border-radius: 7px;
+    color:white;
+    font-family: var(--primary-font);
+    font-size: 0.938rem;
+    background-color: var(--primary-color);
+}
+
+.nav-right p{
+    font-size: 1rem;
+    font-weight:600;
+}
+
+.select-language{
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.select-language .fa-angle-down{
+    margin-left: 2px;
 }
