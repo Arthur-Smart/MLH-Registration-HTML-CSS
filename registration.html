@@ -97,25 +97,45 @@
             <p>Add your information to register for event</p>
             <form class="registration-form">
                 <div class="form-group">
-                    <div class="form-controller">
+                    <div class="form-control">
                         <label>First name<span>*</span></label>
                         <input type="text" placeholder="Enter your first name"/>
                     </div>
-                    <div class="form-controller">
+                    <div class="form-control">
                         <label>Last name<span>*</span></label>
                         <input type="text" placeholder="Enter your last name"/>
                     </div>
                 </div>
                 <div class="form-group">
-                    <div class="form-controller">
+                    <div class="form-control">
                         <label>Country<span>*</span></label>
                         <input type="text" placeholder="Enter your country"/>
                     </div>
-                    <div class="form-controller">
-                        <label>Last name<span>*</span></label>
-                        <input type="text" placeholder="Enter your last name"/>
+                    <div class="form-control">
+                        <label>Phone number<span>*</span></label>
+                        <div class="phone-input">
+                            <p>+254</p>
+                            <input type="text" placeholder="Enter your phone number" />
+                        </div>
+                        
                     </div>
                 </div>
+                <div class="form-group">
+                    <div class="form-control">
+                        <label>Specialization<span>*</span></label>
+                        <input type="text" placeholder="Enter your specialization"/>
+                    </div>
+                </div>
+                <p class="note">By submitting this information, one is allowing MLH to share  this data with the  activity for  all instances</p>
+                <div class="checkbox">
+                    <input type="checkbox" checked/>
+                    <p>Allow course provider to contact you using your provided details </p>
+                </div>
+                <div class="checkbox">
+                    <input type="checkbox"/>
+                    <p>Want to skip re-entering registration info for  this  organizer’s events? Check this.</p>
+                </div>
+                <button type="submit" class="register-btn"> Register</button>
             </form>
         </section>
     </main>
