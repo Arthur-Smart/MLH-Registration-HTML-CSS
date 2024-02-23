@@ -427,6 +427,7 @@ label span {
 }
 
 .register-btn {
+  margin-top:20px;
   padding: 12px 25px;
   display: flex;
   align-self: flex-end;
