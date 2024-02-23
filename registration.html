@@ -38,7 +38,7 @@
     </nav>
     <main class="wrapper">
         <!-- Join section -->
-        <section class="join">
+        <section class="join container">
             <div  class="join-left">
                 <div class="join-heading">
                     <h1>SNOSSA 2024 EVENT</h1>
@@ -78,17 +78,45 @@
                 </div>
                 <form class="access-activity">
                     <input type="email" placeholder="Enter your email"/>
-                    <a href="./registration.html"><button>Access Activity</button></a>
+                    <button>Access Activity</button>
                 </form>
             </div>
             <div  class="join-right">
-                <img src="./images/flyer.svg" alt="Medical Learning Hub Access Event" class="flyer"/>
+                <img src="./images/flyer.jpg" alt="Medical Learning Hub Access Event" class="flyer"/>
                 <!-- The organizer logo and name are conditionally rendered -->
                 <div class="organizer">
                     <img src="./images/organizelogo.jpg" alt="Event Organizer" class="organizer-logo"/>
                     <h6>Brain Tumor Association of Africa </h6>
                 </div>
             </div>
+        </section>
+        
+        <!-- Registration form -->
+        <section class="register container">
+            <h1>Registration</h1>
+            <p>Add your information to register for event</p>
+            <form class="registration-form">
+                <div class="form-group">
+                    <div class="form-controller">
+                        <label>First name<span>*</span></label>
+                        <input type="text" placeholder="Enter your first name"/>
+                    </div>
+                    <div class="form-controller">
+                        <label>Last name<span>*</span></label>
+                        <input type="text" placeholder="Enter your last name"/>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="form-controller">
+                        <label>Country<span>*</span></label>
+                        <input type="text" placeholder="Enter your country"/>
+                    </div>
+                    <div class="form-controller">
+                        <label>Last name<span>*</span></label>
+                        <input type="text" placeholder="Enter your last name"/>
+                    </div>
+                </div>
+            </form>
         </section>
     </main>
 </body>
